@@ -8,40 +8,42 @@ YHAlertView是仿系统的UIAlertView，UIAlertController弹出风格而定制�
 在YHAlertView.swift文件中，用标注的方式Public Property，Public Method,Private Property,Private Method区分好公有和私有的属性、方法。
 
 ## 调用方式
-可以参考我的DEMO.:[YHAlertView](https://github.com/samuelandkevin/YHAlertView)
+可以参考我的DEMO:[YHAlertView](https://github.com/samuelandkevin/YHAlertView)
 ```
 // 样式一:
 // message 和 cancelBtn 为nil
-                YHAlertView.show(title: "YHAlertView", message: nil, cancelButtonTitle: nil, otherButtonTitle: "确定") { (alertV:YHAlertView, index:Int) in
-                    print("点击下标是:\(index)")
-                }
+   YHAlertView.show(title: "YHAlertView", message: nil, cancelButtonTitle: nil, otherButtonTitle: "确定") { 
+   (alertV:YHAlertView, index:Int) in
+           print("点击下标是:\(index)")
+   }
                 
 // 样式二:
 // message 好长
-                YHAlertView.show(title: "YHAlertView", message: "消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊", cancelButtonTitle: "取消", otherButtonTitle: "确定") { (alertV:YHAlertView, index:Int) in
-                    print("点击下标是:\(index)")
-                }
+   YHAlertView.show(title: "YHAlertView", message: "消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊啊消息好长啊啊", cancelButtonTitle: "取消", otherButtonTitle: "确定") {
+   (alertV:YHAlertView, index:Int) in
+            print("点击下标是:\(index)")
+    }
 
 // 样式三
 // 多选择弹框
-                YHAlertView.show(title: "YHAlertView", message: "多选择弹框", cancelButtonTitle: "取消", otherButtonTitles:"1","2","3","4","5","6") { (alertV:YHAlertView, index:Int) in
-                    print("点击下标是:\(index)")
-                }
+   YHAlertView.show(title: "YHAlertView", message: "多选择弹框", cancelButtonTitle: "取消", otherButtonTitles:"1","2","3","4","5","6") { (alertV:YHAlertView, index:Int) in
+            print("点击下标是:\(index)")
+    }
 
 
 // 样式四
 // 取消模糊背景
-                let alertV = YHAlertView(title: "YHAlertView", message: "取消模糊背景", delegate: self, cancelButtonTitle: "取消", otherButtonTitles: ["确定"])
-                alertV.visual = false
-                alertV.show()
+   let alertV = YHAlertView(title: "YHAlertView", message: "取消模糊背景", delegate: self, cancelButtonTitle: "取消", otherButtonTitles: ["确定"])
+   alertV.visual = false
+   alertV.show()
 
 // 样式五
 // 取消弹出动画,改变背景颜色
-            let alertV = YHAlertView(title: "YHAlertView", message: "取消弹出动画,改变背景颜色", delegate: self, cancelButtonTitle: "取消", otherButtonTitles: ["确定"])
-            alertV.visual = false
-            alertV.animationOption = .none
-            alertV.visualBGColor = UIColor.red
-            alertV.show()
+   let alertV = YHAlertView(title: "YHAlertView", message: "取消弹出动画,改变背景颜色", delegate: self, cancelButtonTitle: "取消", otherButtonTitles: ["确定"])
+   alertV.visual = false
+   alertV.animationOption = .none
+   alertV.visualBGColor = UIColor.red
+   alertV.show()
 
 ```
 
