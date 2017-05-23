@@ -48,14 +48,14 @@ YHAlertView是仿系统的UIAlertView，UIAlertController弹出风格而定制�
 ```
 
 ## 效果图
-<img src="http://img.blog.csdn.net/20170523100947678?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="60%" alt="还在路上，稍等..."/>
+<img src="http://img.blog.csdn.net/20170523100947678?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="40%" alt="还在路上，稍等..."/>
 
-<img src="http://img.blog.csdn.net/20170523101020222?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="60%" alt="还在路上，稍等..."/>
+<img src="http://img.blog.csdn.net/20170523101020222?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="40%" alt="还在路上，稍等..."/>
 
-<img src="http://img.blog.csdn.net/20170523101047960?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="60%" alt="还在路上，稍等..."/>
+<img src="http://img.blog.csdn.net/20170523101047960?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="40%" alt="还在路上，稍等..."/>
 
-<img src="http://img.blog.csdn.net/20170523101113538?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="60%" alt="还在路上，稍等..."/>
+<img src="http://img.blog.csdn.net/20170523101113538?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="40%" alt="还在路上，稍等..."/>
 
-<img src="http://img.blog.csdn.net/20170523101147038?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="60%" alt="还在路上，稍等..."/>
+<img src="http://img.blog.csdn.net/20170523101147038?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2FtdWVsYW5ka2V2aW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="40%" alt="还在路上，稍等..."/>
 
 ## 点赞的都是帅哥和美女！
